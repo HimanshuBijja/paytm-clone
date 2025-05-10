@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@theme {
+    --color-paytm-100: #00b8f5;
+    --color-paytm-200: #2f82ed;
+    --color-paytm-300: #70d4f5;
+    --color-paytm-400: #102d53;
+    --animate-fade-in-scale: fade-in-scale 0.3s ease-out;
+    @keyframes fade-in-scale {
+        0% {
+        opacity: 0;
+        transform: scale(0.95);
+        }
+        100% {
+        opacity: 1;
+        transform: scale(1);
+        }
+    }
+}
