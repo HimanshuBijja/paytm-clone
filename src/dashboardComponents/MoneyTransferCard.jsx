@@ -1,4 +1,4 @@
-import scanAndPayImg from "../images/scanAndPay.png";
+import scanAndPayImg from "../images/ScanAndPay.png";
 import toMobileImg from "../images/toMobile.png";
 import toBankImg from "../images/toBank.png";
 import toSelfImg from "../images/toSelf.png";
