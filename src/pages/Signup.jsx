@@ -4,6 +4,7 @@ import { Heading } from "../components/Heading";
 import { InputBox } from "../components/InputBox";
 import { SubHeading } from "../components/SubHeading";
 import { BottomWarning} from "../components/BottomWarning";
+import { Link } from "react-router-dom";
 
 export function Signup() {
 	return (
@@ -17,7 +18,9 @@ export function Signup() {
 			<InputBox label={"Firstname"} placeholder={"Max"} />
 			<InputBox label={"Lastname"} placeholder={"Verstappen"} />
 			<div className="px-1 mt-4 mb-2">
-				<Button label={"Sign up"} />
+				<Link to={"/dashboard"}>
+					<Button label={"Sign up"} />
+				</Link>
 			</div>
             <BottomWarning label={"Already have an account?  "} buttonText={"Sign in"} to={"/signin"}/>
 		</Background>
